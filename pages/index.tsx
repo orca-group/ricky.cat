@@ -9,7 +9,7 @@ export default function Home() {
     <Layout title="Home">
       <div className="mx-auto grid gap-8 grid-cols-2 align-middle">
         <Image
-          src="/Group 1.png"
+          src="/iPhone.svg"
           alt="Image of the ricky.cat iPhone app"
           className="justify-self-end"
           width={341}
