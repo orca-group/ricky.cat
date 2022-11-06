@@ -9,5 +9,5 @@ export default function Layout({ children }: React.PropsWithChildren) {
       <main className="py-12">{children}</main>
       <Footer />
     </div>
-  )
-};
+  );
+}
