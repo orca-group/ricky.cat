@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Button from '../components/button';
 import Layout from '../components/layout';
 
@@ -25,6 +26,7 @@ export default function Home() {
             tincidunt finibus. Pellentesque habitant.
           </p>
           <Button goto="/register">Get Started</Button>
+          <Link href="/login" className="ml-5 font-mono hover:underline">Log In</Link>
         </div>
       </div>
     </Layout>

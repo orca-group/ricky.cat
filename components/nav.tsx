@@ -12,14 +12,9 @@ export default function Navbar() {
           /home
         </Link>
         ・
-        <a
-          href="https://txt.ricky.cat"
-          className="text-blue-400 hover:underline"
-          rel="noreferrer"
-          target="_blank"
-        >
+        <Link href="/txt" className="text-blue-400 hover:underline">
           /txt
-        </a>
+        </Link>
         ・
         <Link href="/app" className="text-blue-400 hover:underline">
           /app

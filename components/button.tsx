@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Button({ children, goto }: { children: string; goto: string }) {
   return (
     <Link href={goto}>
-      <div className="inline-block px-5 py-2 bg-slate-800 hover:bg-slate-900 hover:cursor-pointer text-white font-mono">
+      <div className="inline-block text-white px-4 py-2 font-mono ease-in duration-150 bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
         {children}
       </div>
     </Link>
