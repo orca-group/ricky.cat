@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout title="Home">
       <div className="mx-auto grid gap-8 grid-cols-2 align-middle">
         <Image
           src="/Group 1.png"
