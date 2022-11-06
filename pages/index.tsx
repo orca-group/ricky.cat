@@ -26,7 +26,7 @@ export default function Home() {
             tincidunt finibus. Pellentesque habitant.
           </p>
           <Button goto="/register">Get Started</Button>
-          <Link href="/login" className="ml-5 font-mono hover:underline">Log In</Link>
+          <Link href="/login" className="ml-5 hover:underline">Log In</Link>
         </div>
       </div>
     </Layout>

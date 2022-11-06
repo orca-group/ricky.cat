@@ -12,7 +12,7 @@ export default function Layout({ children, title }: { children: React.ReactNode,
       </Head>
       <div className="mx-auto px-40 py-6">
         <Navbar />
-        <main className="py-12">{children}</main>
+        <main className="py-12" id={title.toLowerCase()}>{children}</main>
         <Footer />
       </div>
     </>
