@@ -5,22 +5,17 @@ import Footer from './footer';
 import Sidebar from './sidebar';
 
 const pages = [
-  // Documentation
-  'Documentation',
-  ['Home', '/txt'],
-  ['Frequently Asked Questions', '/txt/faq'],
-  ['About Us', '/txt/about'],
+  'ricky.cat',
+  ['Wall', '/app'],
+  ['Bookmarks', '/app/bookmarks'],
+  ['Notifications', '/app/notifications'],
+  ['Profile', '/app/user/@me'],
+  ['Settings', '/app/settings'],
 
   // Legal, Policies, etc.
-  'Legal',
-  ['Terms of Service', '/txt/tos'],
-  ['Privacy Policy', '/txt/privacy'],
-  ['Content Guidelines', '/txt/content-guidelines'],
-  ['Security', '/txt/security'],
-
-  'Developers',
-  ['API Reference', '/txt/api-reference'],
-  ['Data Objects', '/txt/data-objects'],
+  'Your Pages',
+  ['Lorem Ipsum', '/app/page/@lorem-ipsum'],
+  ['Dolor Sit Amet', '/app/page/@dolor-sit-amet'],
 ];
 
 export default function Layout({ children, title }: { children: React.ReactNode, title: string }) {

@@ -3,14 +3,14 @@ import Link from 'next/link';
 
 const footerLinks = [
   { name: 'Home', href: '/', local: true },
-  { name: 'About', href: '/txt/about', local: false },
+  { name: 'About Us', href: '/txt/about-us', local: true },
   { name: 'Contact', href: 'mailto:hello@ricky.cat', local: false },
   { name: 'Web App', href: '/app', local: true },
   { name: 'Status', href: 'https://status.ricky.cat', local: false },
-  { name: 'Privacy Policy', href: '/txt/privacy', local: true },
-  { name: 'Terms of Service', href: '/txt/tos', local: true },
+  { name: 'Privacy Policy', href: '/txt/legal/privacy', local: true },
+  { name: 'Terms of Service', href: '/txt/legal/tos', local: true },
   { name: 'Frequently Asked Questions', href: '/txt/faq', local: true },
-  { name: 'Content Guidelines', href: '/txt/content-guidelines', local: true },
+  { name: 'Content Guidelines', href: '/txt/legal/content-guidelines', local: true },
   {
     name: 'Source Code',
     href: 'https://github.com/orca-group/www.ricky.cat',

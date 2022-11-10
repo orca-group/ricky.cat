@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Sidebar({ pages }: { pages: (string | string[])[] }) {
   return (
-    <ul className="inline-block border-x bg-white border-b border-black fixed">
+    <ul className="inline-block border-x bg-white border-b border-black">
       {pages.map((x) => {
         if (typeof x === 'string') {
           return (
