@@ -1,21 +1,29 @@
 import React from 'react';
 import Head from 'next/head';
-import Navbar from './nav';
-import Footer from './footer';
+import Navbar from '../nav';
+import Footer from '../footer';
 import Sidebar from './sidebar';
 
 const pages = [
-  'ricky.cat',
-  ['Wall', '/app'],
-  ['Bookmarks', '/app/bookmarks'],
-  ['Notifications', '/app/notifications'],
-  ['Profile', '/app/user/@me'],
-  ['Settings', '/app/settings'],
+  // Documentation
+  'About',
+  ['Home', '/txt'],
+  ['Frequently Asked Questions', '/txt/faq'],
+  ['About Us', '/txt/about-us'],
+
+  'Guides & Support',
+  ['Making an Account', '/txt/guides/making-an-account'],
 
   // Legal, Policies, etc.
-  'Your Pages',
-  ['Lorem Ipsum', '/app/page/@lorem-ipsum'],
-  ['Dolor Sit Amet', '/app/page/@dolor-sit-amet'],
+  'Legal',
+  ['Terms of Service', '/txt/legal/tos'],
+  ['Privacy Policy', '/txt/legal/privacy'],
+  ['Content Guidelines', '/txt/legal/content-guidelines'],
+  ['Security', '/txt/legal/security'],
+
+  'Documentation',
+  ['Getting Started', '/txt/developers/getting-started'],
+  ['API Reference', '/txt/developers/api-reference'],
 ];
 
 export default function Layout({ children, title }: { children: React.ReactNode, title: string }) {
